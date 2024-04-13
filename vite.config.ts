@@ -11,6 +11,8 @@ export default defineConfig({
         description: '숲(아프리카TV) 메인에서 버츄얼헤르츠의 채널만 보이게 필터링해주는 tampermonkey 스크립트입니다.',
         namespace: 'sucat.dev',
         match: ['https://www.afreecatv.com'],
+        downloadURL: 'https://github.com/sucat0/vhz-filter/raw/main/dist/vhz-filter.user.js',
+        updateURL: 'https://github.com/sucat0/vhz-filter/raw/main/dist/vhz-filter.user.js',
         version: '0.0.1',
         license: 'MIT',
         "run-at": "document-idle",
